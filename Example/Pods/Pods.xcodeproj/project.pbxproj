@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		031FE56B814B87564A1F3BED1EC54328 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FF42F12D2FE8EF1A46DFE77DF113A9 /* ReplaceMe.m */; };
-		09BA024B1F2B15A2001E4746 /* HJPodTestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BA02491F2B15A2001E4746 /* HJPodTestLib.h */; };
-		09BA024C1F2B15A2001E4746 /* HJPodTestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BA024A1F2B15A2001E4746 /* HJPodTestLib.m */; };
 		112E174BD83DC3DD2F3E22FF7FE95BBD /* Pods-HJPodTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DBCBC3531CAA040556CA955705C95B /* Pods-HJPodTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CCD2C9F2CBFBCEABBE1C1D9C9A4C897 /* Pods-HJPodTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999C72C4AD65BA87FB7308AD540A212A /* Pods-HJPodTestLib_Tests-dummy.m */; };
 		469292E7DFA9965B3B065C4BF2A38616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -32,8 +29,6 @@
 		01DBCBC3531CAA040556CA955705C95B /* Pods-HJPodTestLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJPodTestLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		05CF25154BAA0B5D773F55FF9731AB7A /* Pods-HJPodTestLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJPodTestLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		0942C650BC17314F4F6BD6E0982F0DD8 /* HJPodTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJPodTestLib-dummy.m"; sourceTree = "<group>"; };
-		09BA02491F2B15A2001E4746 /* HJPodTestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPodTestLib.h; sourceTree = "<group>"; };
-		09BA024A1F2B15A2001E4746 /* HJPodTestLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPodTestLib.m; sourceTree = "<group>"; };
 		0B61B47688896CF3BC93807B07DA8CAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34519543D45C1E28AF127DAAE95565EA /* Pods-HJPodTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJPodTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		34ABA9290EC6F12EC8D03CDE09BD8F94 /* Pods-HJPodTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJPodTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,7 +44,6 @@
 		999C72C4AD65BA87FB7308AD540A212A /* Pods-HJPodTestLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJPodTestLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		A09AAC59ED81FD77EBAE603FEB45E47E /* Pods-HJPodTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJPodTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCECF252AABEC47BF2E805169B2688A6 /* HJPodTestLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJPodTestLib.xcconfig; sourceTree = "<group>"; };
-		E0FF42F12D2FE8EF1A46DFE77DF113A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		E9F4BB38172AB4F31E98B889F686BCA8 /* HJPodTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJPodTestLib-prefix.pch"; sourceTree = "<group>"; };
 		F2672A4E56134B9AABB18D7A45AB05F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09BA024D1F2B333C001E4746 /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		09BA024E1F2B333C001E4746 /* NetworkEngine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkEngine;
+			sourceTree = "<group>";
+		};
 		15B15ACA638B1C2758AE17F504464752 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,9 +108,8 @@
 		4EF88A7E7DC12E7B707AD4C735D49D94 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0FF42F12D2FE8EF1A46DFE77DF113A9 /* ReplaceMe.m */,
-				09BA02491F2B15A2001E4746 /* HJPodTestLib.h */,
-				09BA024A1F2B15A2001E4746 /* HJPodTestLib.m */,
+				09BA024D1F2B333C001E4746 /* CommonUtils */,
+				09BA024E1F2B333C001E4746 /* NetworkEngine */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -193,7 +200,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BA024B1F2B15A2001E4746 /* HJPodTestLib.h in Headers */,
 				95D53212CCF67DBFE4E82A3ED56275E5 /* HJPodTestLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BA024C1F2B15A2001E4746 /* HJPodTestLib.m in Sources */,
 				D29675689E63F84EC98D71ABD047484C /* HJPodTestLib-dummy.m in Sources */,
-				031FE56B814B87564A1F3BED1EC54328 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
