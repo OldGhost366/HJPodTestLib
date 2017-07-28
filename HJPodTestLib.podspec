@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJPodTestLib'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'HJPodTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HJPodTestLib/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'HJPodTestLib' => ['HJPodTestLib/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'NetworkEngine' do |networkEngine|
+    networkEngine.source_files = 'HJPodTestLib/Classes/NetworkEngine/**/*'
+    networkEngine.public_header_files = 'HJPodTestLib/Classes/NetworkEngine/**/*.h'
+    # 设置依赖
+    networkEngine.dependency 'AFNetworking', '~> 3.0'
+  end
+  s.subspec 'CommonUtils' do |utils|
+    utils.source_files = 'HJPodTestLib/Classes/CommonUtils/**/*'
+    utils.public_header_files = 'HJPodTestLib/Classes/CommonUtils/**/*.h'
+  end
 end
